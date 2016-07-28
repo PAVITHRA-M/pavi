@@ -7,11 +7,10 @@ class Posneg
 		Integer x;
 		System.out.println("Enter the number");
 		x=in.nextInt();
-		if(x>0)
-			System.out.println("the number"+" "+x+" "+"is positive");
-		else if(x<0)
-			System.out.println("the number"+" "+x+" "+"is negative");
+		if(x%2==0)
+			System.out.println("the number"+" "+x+" "+"is even");
+
 		else
-			System.out.println("the number"+" "+x+" "+"is zero");
+			System.out.println("the number"+" "+x+" "+"is odd");
 	}
 }
