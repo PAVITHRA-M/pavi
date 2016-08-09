@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Reverse
+class numreverse
 {
 	public static void main(String arg[])
 	{
